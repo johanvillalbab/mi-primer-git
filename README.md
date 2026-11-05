@@ -22,6 +22,10 @@ Haz un cambio pequeño de esta misma interfaz (un texto, un color) siguiendo los
 
 Pide a tu agente que te explique qué cambió y revisa el resultado antes de integrarlo.
 
+## Después del taller
+
+Sigue la [guía de siguientes pasos](GUIA.md). Te muestra cómo revisar el PR de otra persona, publicar con GitHub Pages o Vercel, hacer tu primer cambio en el repositorio de tu equipo y resolver un conflicto.
+
 ## Qué hay adentro
 
 HTML, CSS y JavaScript sin build ni dependencias (`index.html`, `styles.css`, `app.js`). Iconos de Phosphor y fuente Geist por CDN. Tu progreso se guarda en el navegador.

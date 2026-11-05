@@ -402,6 +402,8 @@ h2 {
   border-radius: 8px;
   background: var(--card);
   font-size: 13.5px;
+  color: var(--text);
+  text-decoration: none;
   cursor: pointer;
   transition: background 160ms var(--ease), border-color 160ms var(--ease), opacity 160ms var(--ease);
 }
