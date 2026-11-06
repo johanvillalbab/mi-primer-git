@@ -26,6 +26,24 @@ Pide a tu agente que te explique qué cambió y revisa el resultado antes de int
 
 Sigue la [guía de siguientes pasos](GUIA.md). Te muestra cómo revisar el PR de otra persona, publicar con GitHub Pages o Vercel, hacer tu primer cambio en el repositorio de tu equipo y resolver un conflicto.
 
+## Skill para tu agente
+
+En `skills/git-para-disenadores/` hay una skill que le enseña a tu agente a trabajar con Git y GitHub como se vio en el taller. Crea una rama por cambio, escribe commits claros, abre PRs enfocadas, no integra sin tu aprobación y te explica cada paso en lenguaje llano.
+
+Para instalarla, copia la carpeta `git-para-disenadores` en la carpeta de skills de tu agente:
+
+- Claude Code: `~/.claude/skills/`
+- Cursor: `~/.cursor/skills/`
+- Codex: `~/.agents/skills/`
+
+Por ejemplo, desde la carpeta de este repo:
+
+```bash
+cp -R skills/git-para-disenadores ~/.claude/skills/
+```
+
+Abre una sesión nueva del agente para que la cargue.
+
 ## Qué hay adentro
 
 HTML, CSS y JavaScript sin build ni dependencias (`index.html`, `styles.css`, `app.js`). Iconos de Phosphor y fuente Geist por CDN. Tu progreso se guarda en el navegador.
